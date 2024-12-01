@@ -12,10 +12,10 @@ export class ServerService {
   getCreateOrder(){
     console.log("Url trying to hit is: http://46.202.162.137:8000/createorder");
     
-    return this.http.get(`http://46.202.162.137:8000/createorder`,{responseType: 'text' as 'json'})
+    return this.http.get(`https://srv657211.hstgr.cloud/createorder`,{responseType: 'text' as 'json'})
   }
   getHello(){
-    return this.http.get(`http://46.202.162.137:8000/`);
+    return this.http.get(`hhttps://srv657211.hstgr.cloud/`);
   }
 
 }
